@@ -2,7 +2,7 @@ function App() {
   return (
     <>
       <div className='App'>
-        <h1>React Applocation</h1>
+        <h1>React Application</h1>
       </div>
     </>
   )
