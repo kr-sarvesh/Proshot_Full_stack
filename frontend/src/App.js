@@ -1,9 +1,17 @@
+import Header from './components/Header'
+import { Container } from 'react-bootstrap'
+import Footer from './components/Footer'
+
 function App() {
   return (
     <>
-      <div className='App'>
-        <h1>React Application</h1>
-      </div>
+      <Header />
+      <main className='py-3'>
+        <Container>
+          <h1>Welcome to ProShot</h1>
+        </Container>
+      </main>
+      <Footer />
     </>
   )
 }
